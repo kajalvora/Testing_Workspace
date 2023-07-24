@@ -1,0 +1,22 @@
+1) Display FirstName According to Ascending order
+=> SELECT * FROM employee_detail ORDER BY (FIRST_NAME) ASC
+2) Display User Detail According to Lower to Higher Salary
+=> SELECT * FROM employee_detail ORDER BY (SALARY) ASC
+3) Display Firstname Whose Firstname Starts with J.
+=> UPDATE employee_detail SET FIRST_NAME = "J" NOT SLOVED
+4) Display All Employee Whose Designation is CLERK
+=>
+5) Remove Records which is belong from HR ANALYST category
+=> DELETE FROM employee_detail WHERE DESIGNATION="HR ANALYST";
+6) Display User Detail Whose Department No. is 40
+=> UPDATE employee_detail SET DEPT_NO = "40" NOT SLOVED
+7) Display Max salary from Table
+=> SELECT MAX (SALARY) FROM employee_detail; NOT SLOVED
+8) Display Minimum Salary from Table
+=> SELECT MIN (SALARY) FROM employee_detail;
+9) Display Total Salary of Employee
+=> SELECT SUM (SALARY) FROM employee_detail; NOT SLOVED
+10) Find Second Highest Salary From Table
+=> 
+
+
